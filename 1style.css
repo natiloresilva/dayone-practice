@@ -1,0 +1,39 @@
+
+* {
+     padding: 0px;
+    margin: 0px;
+}
+
+.header {
+    background-color: aquamarine;
+    height: 60px;
+}
+.nav {
+    background-color: pink;
+    height: 60px;
+}
+
+.container-section{
+    display: flex;
+}
+.section{ 
+    background-color: yellow;
+    height: 80px;
+    padding: 10px;
+    width: 70%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.article {
+    background-color: orange;
+    margin: 5px;
+
+}
+.aside{
+    display: inline-block;
+}
+.footer{
+    background-color: aqua;
+    height: 60px;
+}
